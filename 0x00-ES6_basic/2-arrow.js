@@ -6,7 +6,8 @@ export default function getNeighborhoodsList() {
     self.sanFranciscoNeighborhoods.push(newNeighborhood);
     return self.sanFranciscoNeighborhoods;
   }; */
-  this.addNeighborhood = (newNeighborhood) => { self.sanFranciscoNeighborhoods.push(newNeighborhood); 
-  return self.sanFranciscoNeighborhoods;
+  this.addNeighborhood = (newNeighborhood) => { 
+    self.sanFranciscoNeighborhoods.push(newNeighborhood); 
+    return self.sanFranciscoNeighborhoods;
   }
 }
